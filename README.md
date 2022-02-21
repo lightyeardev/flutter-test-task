@@ -13,6 +13,8 @@ The goal of the task is to create a small flutter application that lists stock n
 
 ![Stock News Requirements](/requirements/stock_news.png?raw=true)
 
+- The design in figma can be found here: https://www.figma.com/file/rdOB7Eh5lSUMcCStIJdcTn/News
 - The news data is included in the project in the file `./data/news.json`
 - The instrument data can be requested from our public endpoint: https://golightyear.com/api/v1/instrument
+- For the prices, it's OK to generate some random numbers. Some positive and negative ones.
 - The brand colors that we use are included in the file `./lib/colors.dart`
