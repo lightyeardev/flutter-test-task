@@ -11,10 +11,14 @@ Flutter is very much like React so if you have a background in web and React, pi
 
 The goal of the task is to create an application that has a single screen and lists some news about certain stocks.
 
+![Stock News Requirements](/requirements/stock_news.png?raw=true)
+
 - The news data is included in the project in the file `./data/news.json`
 - The instrument data can be requested from our public endpoint: https://lightyear.ee/api/v1/instrument -- you will need this to link the news to certain instruments. In news there are only `instrumentIds`, and to get the symbol and company name it needs to be looked up from this data source.
 - For the prices, it's OK to generate some random numbers. Some positive and negative ones.
 - The brand colors that we use are included in the file `./lib/colors.dart` - there shouldn't be a need to use any other colors.
 - The detailed design in figma can be found here: https://www.figma.com/file/rdOB7Eh5lSUMcCStIJdcTn/News
 
-![Stock News Requirements](/requirements/stock_news.png?raw=true)
+### Bonus Requirements
+
+- When tapping on a news item, it should animate to a state where it shows also the news summary, and the logo has increased in size. Then tapping it a second time returns to the original state.
